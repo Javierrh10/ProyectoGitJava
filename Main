@@ -6,7 +6,7 @@ public class Main {
       System.out.println("Suma " + calc.sumar(5, 3));
       System.out.println("Resta " + calc.restar(8,2));
       System.out.println("Multiplica " + calc.multiplicar(8,2));
-
+      System.out.println("Divide " + calc.dividir(8,2));
       
   }
 }
