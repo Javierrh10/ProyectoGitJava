@@ -19,7 +19,7 @@ public class Calculadora {
 
     public int dividir(int a, int b) {
         if(a == 0 || b == 0){
-            System.out.println("No se dividir por 0");
+            System.out.println("quillo no divide por 0");
         } else{
             return a / b;
         }
