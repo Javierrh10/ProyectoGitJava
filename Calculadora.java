@@ -13,8 +13,8 @@ public class Calculadora {
         return a - b;
     }
 
-    public int multiplicar(int a, int b) {
-        return a * b;
+    public int multiplicar(int b, int a) {
+        return b * a;
     }
 
     public int dividir(int a, int b) {
