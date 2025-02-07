@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("Suma " + calc.sumar(a, b));
         System.out.println("Resta " + calc.restar(a, b));
-        System.out.println("Multiplica " + calc.multiplicar(a, b));
+        System.out.println("Multiplica " + calc.multiplicar());
         System.out.println("Divide " + calc.dividir(a, b));
     }
 }

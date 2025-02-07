@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /**
  * Esta clase ...
  *
@@ -13,7 +15,12 @@ public class Calculadora {
         return a - b;
     }
 
-    public int multiplicar(int a, int b) {
+    public int multiplicar() {
+        Random random = new Random();
+
+        int a = random.nextInt(10);
+        int b = random.nextInt(10);
+
         return a * b;
     }
 
